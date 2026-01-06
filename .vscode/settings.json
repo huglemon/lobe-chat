@@ -92,5 +92,11 @@
     "**/src/locales/default/*.ts": "${filename} • locale",
 
     "**/index.*": "${dirname}/${filename}.${extname}"
-  }
+  },
+  "i18n-ally.localesPaths": [
+    "locales",
+    "src/locales",
+    "apps/desktop/resources/locales",
+    "apps/desktop/src/main/locales"
+  ]
 }
